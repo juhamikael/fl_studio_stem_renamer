@@ -1,5 +1,4 @@
 import os
-import shutil
 from subprocess import run
 from functions import rename_remove_date, move_files
 
@@ -18,13 +17,18 @@ search_string_to_lower = search_string.lower()
 new_folder = f"cd {path} &&" \
              f"mkdir {search_string_to_lower}"
 new_path = f"{path}/{search_string_to_lower}"
+# Ignore lowercase
 
 # Changing working path so new folder can be made
 os.chdir(path)
 run(new_folder, shell=True)
 
-# Move file
 first_ls = os.listdir(path)
+
+# Lowercase files
+
+
+# Move files
 move_files(first_ls, project_name, new_path)
 
 # Rename files (remove date from the name)
