@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['C:\\Users\\Savik\\Documents\\GitHub\\fl_studio_stem_renamer'],
+             pathex=['C:\\Users\\Savik\\Documents\\fl_studio_stem_renamer'],
              binaries=[],
              datas=[],
              hiddenimports=[],

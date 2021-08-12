@@ -1,13 +1,11 @@
 import os
 from subprocess import run
 from functions import rename_remove_date, move_files
-
 import configparser
 
 # Configuration
-config = configparser.ConfigParser()
 read_config = configparser.ConfigParser()
-read_config.read("./application/config.ini")
+read_config.read("./config.ini")
 path = read_config.get("Path", "FL_Studio_data_path")
 
 
