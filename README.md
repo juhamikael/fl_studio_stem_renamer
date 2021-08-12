@@ -41,7 +41,7 @@
 
 ![Screenshot](./screenshots/s_shot_1.png)
 ```
-pyinstaller --noconfirm --onefile --console --icon=./icon/favicon.ico ./scripts/main.py
+pyinstaller --noconfirm --onefile --console --icon=./icon/favicon.ico ./main.py
 ```
 3. locate folder ./dist
 4. move main.exe to ./application
