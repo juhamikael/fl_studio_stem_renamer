@@ -14,12 +14,12 @@
 * Renaming the files 
 ```
   # The file after it's rendered : 
-    Python test_2021-08-09 20-46-37_3 - Bass
+    Testing_2021-08-09 20-46-37_1 - Bass
   
   # After script is executed :
     Python test_2021-08-09 20-46-37_  is removed
     and the new name of the file is: 
-    3 - Bass 
+    1 - Bass 
 
 ```
 ## # Getting Started
