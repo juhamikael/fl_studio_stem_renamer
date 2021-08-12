@@ -21,6 +21,7 @@
 ```
 ## Getting Started
 
+
 ### Dependencies
 
 * [Install pyinstaller](https://pyinstaller.readthedocs.io/en/stable/installation.html)
@@ -47,6 +48,11 @@ pyinstaller --noconfirm --onefile --console --icon=./icon/favicon.ico ./main.py
 4. move main.exe to ./application
 5. Right click main.exe file -> Send to -> Desktop
 
+## !! IMPORTANT - EDIT CONFIG FILE !!
+1. Open application folder
+2. open config.ini with any text editor
+3. EDIT LINE 10 ```FL_Studio_data_path = "YOUR USER DATA FOLDER"\FL Studio\Audio\Recorded```
+4. REPLACE ->```"YOUR USER DATA FOLDER"```<- with 
 ### Executing program in terminal
 
 1. run cmd
