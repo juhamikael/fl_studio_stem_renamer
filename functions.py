@@ -13,6 +13,7 @@ def rename_remove_date(list, inp, project_name):
         os.rename(files, files[total_worthless_len:])
 
 
+
 def move_files(list, project_name, new_path):
     project_stems_to_move = []
     for file in list:
