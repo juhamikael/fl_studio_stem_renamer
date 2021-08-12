@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Rename FL Studio audio files made in
 1. Mixer >
 2. Disk Recording >
