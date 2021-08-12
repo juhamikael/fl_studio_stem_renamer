@@ -10,6 +10,7 @@ read_config = configparser.ConfigParser()
 read_config.read("./application/config.ini")
 path = read_config.get("Path", "FL_Studio_data_path")
 
+
 # Variables
 project_name = input(f"Type your project name: ")
 search_string = project_name.replace(" ", "_")
