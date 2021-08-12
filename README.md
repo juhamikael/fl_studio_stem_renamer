@@ -1,11 +1,11 @@
-### Rename FL Studio audio files made in
+### #Rename FL Studio audio files made in
 1. Mixer >
 2. Disk Recording >
 3. Render to wave files
 * [Video coming soon...]()
 
-### What this script does?  
-###### We give project name and the script is:
+### #What this script does?  
+###### #We just give project name and the script is:
 * Making new folder with given name
 * Moving the files to new folder which matches with the given name
 * Renaming the files 
@@ -19,7 +19,7 @@
     3 - Bass 
 
 ```
-## Getting Started
+## #Getting Started
 
 
 ### Dependencies
@@ -49,21 +49,28 @@ pyinstaller --noconfirm --onefile --console --icon=./icon/favicon.ico ./main.py
 5. Right click main.exe file -> Send to -> Desktop
 
 ## !! IMPORTANT - EDIT CONFIG FILE !!
-1. Open application folder
+```
+  IN FL STUDIO, GO TO:
+  1. OPTIONS
+  2. FILE SETTINGS
+  3. LOCATE USER DATA FOLDER PATH
+  ```
+![Screenshot](./screenshots/s_shot_2.png)
+1. Open ./application
 2. open config.ini with any text editor
 3. EDIT LINE 10 ```FL_Studio_data_path = "YOUR USER DATA FOLDER"\FL Studio\Audio\Recorded```
-4. REPLACE ->```"YOUR USER DATA FOLDER"```<- with 
-### Executing program in terminal
+4. REPLACE ->```"YOUR USER DATA FOLDER"```<- with ```THE PATH YOU HAVE IN USER DATA FOLDER```
+### #Executing program in terminal
 
 1. run cmd
 2. ex. ```cd %userprofile%/Downloads/fl_studio_stem_renamer && python main.py```
 
-## Authors
+## #Authors
 
 Contact info
 [@Juhamikaell](https://instagram.com/juhamikaell)
 
-## Version History
+## #Version History
 
 * Version 0.1
   * Initial Release
