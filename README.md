@@ -38,19 +38,19 @@
 ##### OR
 1. Locate the folder
 2. Type cmd on address bar
-* 
-![Screenshot](screenshot.png)
+
+![Screenshot](./screenshots/s_shot_1.png)
 ```
 pyinstaller --noconfirm --onefile --console --icon=./icon/favicon.ico ./scripts/main.py
 ```
-3. cd ./dist/
-4. main.exe
-5. Move the confimain.exe from ./dist 
+3. locate folder ./dist
+4. move main.exe to ./application
+5. Right click main.exe file -> Send to -> Desktop
 
 ### Executing program in terminal
 
 1. run cmd
-2. ex. ```cd %userprofile%/Downloads/create-react-app-main && python CreateReact.py```
+2. ex. ```cd %userprofile%/Downloads/fl_studio_stem_renamer && python main.py```
 
 ## Authors
 
@@ -59,12 +59,13 @@ Contact info
 
 ## Version History
 
-* 0.1
-    * Initial Release
+* Version 0.1
+  * Initial Release
+* Version 0.2
+  * Fixed Bugs:
+    * Type project name with spaces 
+    * lower case folder name
 
+  
+ ### More info and videos coming soon!
 
-=======
-## fl_studio_stem_renamer
- * Removing project name and date from the file and leaving only name you typed on Mixer
- # More info coming soon!
->>>>>>> a59c87a1087f7b5ebb025edc9eb0316dd2c7fad8
