@@ -1,5 +1,5 @@
 ## FL STUDIO STEM RENAMER
-### # This script edit FLStudio audio files made in
+### # This script edit FLStudio audio files made in FL Studio 
 ```
 1. Mixer 
     2. Disk Recording 
