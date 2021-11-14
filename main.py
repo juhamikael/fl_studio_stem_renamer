@@ -6,8 +6,10 @@ import configparser
 # Configuration
 read_config = configparser.ConfigParser()
 read_config.read("./config.ini")
-path = read_config.get("Path", "FL_Studio_data_path")
-print(path)
+defaulPath = read_config.get("Path", "default_path")
+customPath = read_config.get("Path", "custom_path")
+path = f"{customPath}{defaulPath}"
+print("Current path =", path)
 
 # Variables
 project_name = input(f"Type your project name: ")
@@ -23,9 +25,6 @@ os.chdir(path)
 run(new_folder, shell=True)
 
 first_ls = os.listdir(path)
-
-# Lowercase files
-
 
 # Move files
 move_files(first_ls, project_name, new_path)
