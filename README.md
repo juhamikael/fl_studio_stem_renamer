@@ -17,7 +17,7 @@
     Testing_2021-08-09 20-46-37_1 - Bass
   
   # After script is executed :
-    Python test_2021-08-09 20-46-37_  is removed
+    Testing_2021-08-09 20-46-37_ is removed
     and the new name of the file is: 
     1 - Bass 
 
