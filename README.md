@@ -4,6 +4,8 @@
 # Known bugs (Use the program at your risk):
 - Sometimes the files are being removed so make sure you have backup
 
+---
+
 ```
 1. Mixer 
     2. Disk Recording 
