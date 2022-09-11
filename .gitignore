@@ -29,3 +29,4 @@ __pycache__/functions.cpython-39.pyc
 __pycache__/
 *.egg-info/
 venv
+functions.py
