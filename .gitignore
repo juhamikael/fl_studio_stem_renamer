@@ -26,3 +26,6 @@ application/main.exe
 application/config.ini
 __pycache__/main.cpython-39.pyc
 __pycache__/functions.cpython-39.pyc
+__pycache__/
+*.egg-info/
+venv
