@@ -2,7 +2,8 @@
 ### # This script edit FLStudio audio files made in FL Studio 
 
 # Known bugs (Use the program at your risk):
-- Sometimes the files are being removed so make sure you have backup
+- Sometimes the files are being removed so make sure you have backup.
+- Files might vanish if folder with same name already exists.
 
 ---
 
